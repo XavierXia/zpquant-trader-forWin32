@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{A038E0F3-4BB6-4CC0-94C2-39E5C765090E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>zpquantForWin32</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>E:\work\tools\zpquant-trader-forWin32\zpquantForWin32\zpquantForWin32\src\trade;C:\Program Files %28x86%29\nanomsg\include;E:\work\tools\zpquant-trader-forWin32\zpquantForWin32\zpquantForWin32\src\third\CTPForWin32;E:\work\tools\zpquant-trader-forWin32\zpquantForWin32\zpquantForWin32\src\third\Kr360Quant\nanomsgcpp_header;E:\work\tools\zpquant-trader-forWin32\zpquantForWin32\zpquantForWin32\src\third\Kr360Quant\include;E:\work\tools\zpquant-trader-forWin32\zpquantForWin32\zpquantForWin32\src\strategies\strategy_common;E:\work\tools\zpquant-trader-forWin32\zpquantForWin32\zpquantForWin32\src\common\trade_headers;E:\work\tools\zpquant-trader-forWin32\zpquantForWin32\zpquantForWin32\src\common;E:\work\tools\zpquant-trader-forWin32\zpquantForWin32\zpquantForWin32\src\common\tick;E:\boost\boost_1_70_0;E:\work\tools\zpquant-trader-forWin32\zpquantForWin32\zpquantForWin32\src\trade\trade_plugins;E:\work\tools\zpquant-trader-forWin32\zpquantForWin32\zpquantForWin32\src\trade\md_plugins;$(IncludePath)</IncludePath>
+    <LibraryPath>E:\work\tools\zpquant-trader-forWin32\zpquantForWin32\zpquantForWin32\src\third\Kr360Quant\win32;C:\Program Files %28x86%29\nanomsg\lib;E:\boost\boost_1_70_0\stage\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>E:\boost\boost_1_70_0;E:\work\tools\zpquant-trader-forWin32\zpquantForWin32\zpquantForWin32\src\common\trade_headers;E:\work\tools\zpquant-trader-forWin32\zpquantForWin32\zpquantForWin32\src\third\Kr360Quant\include;C:\Program Files %28x86%29\nanomsg\include;E:\work\tools\zpquant-trader-forWin32\zpquantForWin32\zpquantForWin32\src\third\Kr360Quant\nanomsgcpp_header;$(IncludePath)</IncludePath>
+    <LibraryPath>E:\boost\boost_1_70_0\stage\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>Boost_USE_STATIC_RUNTIME=OFF;Boost_USE_MULTITHREADED;Boost_USE_STATIC_LIBS;KR_QUANT_TDPlugin;KR_QUANT_MDPlugin;_WIN32_WINNT=0x0A00;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;_CRT_SECURE_NO_WARNINGS;WIN32;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <AdditionalIncludeDirectories>C:/Program Files (x86)/nanomsg/include/;E:\boost\boost_1_70_0;C:\Program Files (x86)\nanomsg\include\nanomsg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <AdditionalLibraryDirectories>C:\Program Files (x86)\nanomsg\lib;E:\boost\boost_1_70_0\stage\lib;E:\boost\boost_1_70_0\lib64-msvc-14.1;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>nanomsg.lib;oes_api.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalIncludeDirectories>C:\Program Files %28x86%29\nanomsg\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>nanomsg.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="src\common\trade_headers\AtmMarketDataPluginInterface.h" />
+    <ClInclude Include="src\common\trade_headers\AtmPluginInterface.h" />
+    <ClInclude Include="src\common\trade_headers\AtmTradePluginInterface.h" />
+    <ClInclude Include="src\common\trade_headers\CommuModForClieInterface.h" />
+    <ClInclude Include="src\common\trade_headers\CommuModForServInterface.h" />
+    <ClInclude Include="src\common\trade_headers\public.h" />
+    <ClInclude Include="src\common\trade_headers\SeverityLevel.h" />
+    <ClInclude Include="src\common\trade_headers\TradePluginContextInterface.h" />
+    <ClInclude Include="src\third\Kr360Quant\include\mds_api\errors\mds_errors.h" />
+    <ClInclude Include="src\third\Kr360Quant\include\mds_api\mds_api.h" />
+    <ClInclude Include="src\third\Kr360Quant\include\mds_api\parser\json_parser\mds_json_parser.h" />
+    <ClInclude Include="src\third\Kr360Quant\include\mds_api\parser\mds_protocol_parser.h" />
+    <ClInclude Include="src\third\Kr360Quant\include\mds_global\mds_base_model.h" />
+    <ClInclude Include="src\third\Kr360Quant\include\mds_global\mds_mkt_packets.h" />
+    <ClInclude Include="src\third\Kr360Quant\include\mds_global\mds_qry_packets.h" />
+    <ClInclude Include="src\third\Kr360Quant\include\oes_api\errors\oes_errors.h" />
+    <ClInclude Include="src\third\Kr360Quant\include\oes_api\oes_api.h" />
+    <ClInclude Include="src\third\Kr360Quant\include\oes_api\parser\json_parser\oes_json_parser.h" />
+    <ClInclude Include="src\third\Kr360Quant\include\oes_api\parser\json_parser\oes_query_json_parser.h" />
+    <ClInclude Include="src\third\Kr360Quant\include\oes_api\parser\oes_protocol_parser.h" />
+    <ClInclude Include="src\third\Kr360Quant\include\oes_global\oes_base_model.h" />
+    <ClInclude Include="src\third\Kr360Quant\include\oes_global\oes_packets.h" />
+    <ClInclude Include="src\third\Kr360Quant\include\oes_global\oes_qry_packets.h" />
+    <ClInclude Include="src\third\Kr360Quant\include\sutil\cmnlib.h" />
+    <ClInclude Include="src\third\Kr360Quant\include\sutil\compiler.h" />
+    <ClInclude Include="src\third\Kr360Quant\include\sutil\logger\spk_console_masked_log.h" />
+    <ClInclude Include="src\third\Kr360Quant\include\sutil\logger\spk_log.h" />
+    <ClInclude Include="src\third\Kr360Quant\include\sutil\logger\spk_log_config.h" />
+    <ClInclude Include="src\third\Kr360Quant\include\sutil\logger\spk_log_instance.h" />
+    <ClInclude Include="src\third\Kr360Quant\include\sutil\logger\spk_log_level.h" />
+    <ClInclude Include="src\third\Kr360Quant\include\sutil\logger\spk_log_mode.h" />
+    <ClInclude Include="src\third\Kr360Quant\include\sutil\logger\spk_log_type.h" />
+    <ClInclude Include="src\third\Kr360Quant\include\sutil\logger\_spk_log.h" />
+    <ClInclude Include="src\third\Kr360Quant\include\sutil\net\spk_data_buffer_define.h" />
+    <ClInclude Include="src\third\Kr360Quant\include\sutil\net\spk_errmsg_base_define.h" />
+    <ClInclude Include="src\third\Kr360Quant\include\sutil\net\spk_general_client_define.h" />
+    <ClInclude Include="src\third\Kr360Quant\include\sutil\net\spk_global_packet.h" />
+    <ClInclude Include="src\third\Kr360Quant\include\sutil\net\spk_socket_base_define.h" />
+    <ClInclude Include="src\third\Kr360Quant\include\sutil\platform\spk_platforms.h" />
+    <ClInclude Include="src\third\Kr360Quant\include\sutil\stdc.h" />
+    <ClInclude Include="src\third\Kr360Quant\include\sutil\string\spk_fixed_snprintf.h" />
+    <ClInclude Include="src\third\Kr360Quant\include\sutil\string\spk_multi_field_string.h" />
+    <ClInclude Include="src\third\Kr360Quant\include\sutil\string\spk_strings.h" />
+    <ClInclude Include="src\third\Kr360Quant\include\sutil\string\spk_string_convert.h" />
+    <ClInclude Include="src\third\Kr360Quant\include\sutil\string\spk_string_var.h" />
+    <ClInclude Include="src\third\Kr360Quant\include\sutil\string\spk_strverscmp.h" />
+    <ClInclude Include="src\third\Kr360Quant\include\sutil\time\spk_times.h" />
+    <ClInclude Include="src\third\Kr360Quant\include\sutil\types.h" />
+    <ClInclude Include="src\third\Kr360Quant\nanomsgcpp_header\nn.hpp" />
+    <ClInclude Include="src\trade\connection.hpp" />
+    <ClInclude Include="src\trade\io_service_pool.hpp" />
+    <ClInclude Include="src\trade\md_plugins\KR_QUANT_MDPlugin\KR_QUANT_MDPlugin.h" />
+    <ClInclude Include="src\trade\public.h" />
+    <ClInclude Include="src\trade\server.hpp" />
+    <ClInclude Include="src\trade\trade_plugins\KR_QUANT_TDPlugin\KR_QUANT_TDPlugin.h" />
+    <ClInclude Include="src\trade\trade_plugins\KR_QUANT_TDPlugin\oes_client_api.h" />
+    <ClInclude Include="src\trade\trade_plugins\KR_QUANT_TDPlugin\oes_client_spi.h" />
+    <ClInclude Include="src\trade\trade_service.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\trade\connection.cpp" />
+    <ClCompile Include="src\trade\io_service_pool.cpp" />
+    <ClCompile Include="src\trade\main.cpp" />
+    <ClCompile Include="src\trade\md_plugins\KR_QUANT_MDPlugin\KR_QUANT_MDPlugin.cpp" />
+    <ClCompile Include="src\trade\server.cpp" />
+    <ClCompile Include="src\trade\trade_plugins\KR_QUANT_TDPlugin\KR_QUANT_TDPlugin.cpp" />
+    <ClCompile Include="src\trade\trade_plugins\KR_QUANT_TDPlugin\oes_client_api.cpp" />
+    <ClCompile Include="src\trade\trade_plugins\KR_QUANT_TDPlugin\oes_client_spi.cpp" />
+    <ClCompile Include="src\trade\trade_service.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\third\Kr360Quant\conf\mds_client.conf" />
+    <None Include="src\third\Kr360Quant\conf\oes_client.conf" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

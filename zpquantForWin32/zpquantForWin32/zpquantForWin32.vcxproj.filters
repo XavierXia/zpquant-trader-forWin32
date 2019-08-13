@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\common\trade_headers\AtmMarketDataPluginInterface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\trade_headers\AtmPluginInterface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\trade_headers\AtmTradePluginInterface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\trade_headers\CommuModForClieInterface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\trade_headers\CommuModForServInterface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\trade_headers\public.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\trade_headers\SeverityLevel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\trade_headers\TradePluginContextInterface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\third\Kr360Quant\include\mds_api\errors\mds_errors.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\third\Kr360Quant\include\mds_api\parser\json_parser\mds_json_parser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\third\Kr360Quant\include\mds_api\parser\mds_protocol_parser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\third\Kr360Quant\include\mds_api\mds_api.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\third\Kr360Quant\include\mds_global\mds_base_model.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\third\Kr360Quant\include\mds_global\mds_mkt_packets.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\third\Kr360Quant\include\mds_global\mds_qry_packets.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\third\Kr360Quant\include\oes_api\errors\oes_errors.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\third\Kr360Quant\include\oes_api\parser\json_parser\oes_json_parser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\third\Kr360Quant\include\oes_api\parser\json_parser\oes_query_json_parser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\third\Kr360Quant\include\oes_api\parser\oes_protocol_parser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\third\Kr360Quant\include\oes_api\oes_api.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\third\Kr360Quant\include\oes_global\oes_base_model.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\third\Kr360Quant\include\oes_global\oes_packets.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\third\Kr360Quant\include\oes_global\oes_qry_packets.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\third\Kr360Quant\include\sutil\logger\_spk_log.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\third\Kr360Quant\include\sutil\logger\spk_console_masked_log.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\third\Kr360Quant\include\sutil\logger\spk_log.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\third\Kr360Quant\include\sutil\logger\spk_log_config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\third\Kr360Quant\include\sutil\logger\spk_log_instance.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\third\Kr360Quant\include\sutil\logger\spk_log_level.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\third\Kr360Quant\include\sutil\logger\spk_log_mode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\third\Kr360Quant\include\sutil\logger\spk_log_type.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\third\Kr360Quant\include\sutil\net\spk_data_buffer_define.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\third\Kr360Quant\include\sutil\net\spk_errmsg_base_define.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\third\Kr360Quant\include\sutil\net\spk_general_client_define.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\third\Kr360Quant\include\sutil\net\spk_global_packet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\third\Kr360Quant\include\sutil\net\spk_socket_base_define.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\third\Kr360Quant\include\sutil\platform\spk_platforms.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\third\Kr360Quant\include\sutil\string\spk_fixed_snprintf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\third\Kr360Quant\include\sutil\string\spk_multi_field_string.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\third\Kr360Quant\include\sutil\string\spk_string_convert.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\third\Kr360Quant\include\sutil\string\spk_string_var.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\third\Kr360Quant\include\sutil\string\spk_strings.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\third\Kr360Quant\include\sutil\string\spk_strverscmp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\third\Kr360Quant\include\sutil\time\spk_times.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\third\Kr360Quant\include\sutil\cmnlib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\third\Kr360Quant\include\sutil\compiler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\third\Kr360Quant\include\sutil\stdc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\third\Kr360Quant\include\sutil\types.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\third\Kr360Quant\nanomsgcpp_header\nn.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\trade\md_plugins\KR_QUANT_MDPlugin\KR_QUANT_MDPlugin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\trade\trade_plugins\KR_QUANT_TDPlugin\KR_QUANT_TDPlugin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\trade\trade_plugins\KR_QUANT_TDPlugin\oes_client_api.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\trade\trade_plugins\KR_QUANT_TDPlugin\oes_client_spi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\trade\connection.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\trade\io_service_pool.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\trade\public.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\trade\server.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\trade\trade_service.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\trade\md_plugins\KR_QUANT_MDPlugin\KR_QUANT_MDPlugin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\trade\trade_plugins\KR_QUANT_TDPlugin\KR_QUANT_TDPlugin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\trade\trade_plugins\KR_QUANT_TDPlugin\oes_client_api.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\trade\trade_plugins\KR_QUANT_TDPlugin\oes_client_spi.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\trade\connection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\trade\io_service_pool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\trade\main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\trade\server.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\trade\trade_service.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\third\Kr360Quant\conf\mds_client.conf" />
+    <None Include="src\third\Kr360Quant\conf\oes_client.conf" />
+  </ItemGroup>
+</Project>
