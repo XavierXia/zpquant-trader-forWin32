@@ -64,7 +64,7 @@ public:
 public:
 	void MDDestoryAll();
 	BOOL MDResubscribeByCodePrefix(MdsApiSessionInfoT *pTcpChannel,
-        const char *pCodeListString,eMdsSubscribeModeT subMode);
+        const char *pCodeListString, int32 MdsSubscribeDataType,eMdsSubscribeModeT subMode);
 	BOOL MDResubscribeByCodePostfix(MdsApiSessionInfoT *pTcpChannel,
 		const char *pCodeListString, eMdsSubscribeModeT subMode);
 	void OnWaitOnMsg();
@@ -76,7 +76,7 @@ private:
 	void TimerHandler(boost::asio::deadline_timer* timer, const boost::system::error_code& err);
 
 private:
-    /* 内部的回调处理函数，可以考虑不定义在类中 */
+    /* 内部的回调处理函数 */
     static void *       MdThreadMain(void *pParams);
 };
 #endif
