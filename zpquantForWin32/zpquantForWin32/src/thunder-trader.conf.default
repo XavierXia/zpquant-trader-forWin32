@@ -1,35 +1,47 @@
 {
-    "basic": 
-    {
-        "address": "0.0.0.0",
-        "listenport": "8800",
-        "nethandlerthreadcount": "2",
-        "strategypath": "/usr/local/bin/strategies"
+  "basic": {
+    "address": "0.0.0.0",
+    "listenport": "8800",
+    "nethandlerthreadcount": "2",
+    "strategypath": "/usr/local/bin/strategies"
+  },
+  "logconfig": {
+    "logtype": "syslog|file|console",
+    "syslog": {
+      "serveraddress": "127.0.0.1",
+      "port": "514"
     },
-    "logconfig": 
-    {
-    	"logtype": "syslog|file|console",
-        "syslog": 
-	    {
-            "serveraddress": "127.0.0.1",
-            "port": "514"
-        },
-        "file": 
-	    {
-            "target": "ATMLOG",
-            "filenamehead": "atm_log_",
-            "rotationsize": "1048576",
-            "autoflush": "true"
-        },
-        "console":{}
+    "file": {
+      "target": "ATMLOG",
+      "filenamehead": "atm_log_",
+      "rotationsize": "1048576",
+      "autoflush": "true"
     },
-    "userlist":
+    "console": {}
+  },
+  "md_userlist": [
     {
-        "user1":
-        {
-            "username":"client1",
-            "password":"pass123"
-        }
+      "username": "md_client1",
+      "password": "pass123",
+      "tradepermission": "1"
+    },
+    {
+      "username": "md_client2",
+      "password": "pass123",
+      "tradepermission": "1"
     }
+  ],
+  "td_userlist": [
+    {
+      "username": "td_client1",
+      "password": "pass123",
+      "tradepermission": "1"
+    },
+    {
+      "username": "td_client2",
+      "password": "pass123",
+      "tradepermission": "1"
+    }
+  ]
 }
 

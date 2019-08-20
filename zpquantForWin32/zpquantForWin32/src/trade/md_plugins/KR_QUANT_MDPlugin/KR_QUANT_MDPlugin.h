@@ -54,13 +54,15 @@ public:
 	~CKrQuantMDPluginImp();
 
 	nn::socket nnsocket;
+	map<string, ClientListMdInfoT> mclient;
 
 	virtual bool IsOnline();
 	virtual void CheckSymbolValidity(const unordered_map<string, string> &);
 	virtual string GetCurrentKeyword();
 	virtual string GetProspectiveKeyword(const ptree &);
 	virtual void GetState(ptree & out);
-	virtual void MDInit(const ptree &);
+	virtual void MDInit(const ptree &, ptree &, string &);
+	virtual void MDAddClientUser(const ptree &, ptree &, string &);
 public:
 	void MDDestoryAll();
 	BOOL MDResubscribeByCodePrefix(MdsApiSessionInfoT *pTcpChannel,

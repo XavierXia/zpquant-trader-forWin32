@@ -222,5 +222,6 @@
   <ItemGroup>
     <None Include="src\third\Kr360Quant\conf\mds_client.conf" />
     <None Include="src\third\Kr360Quant\conf\oes_client.conf" />
+    <None Include="src\thunder-trader.conf.default" />
   </ItemGroup>
 </Project>
