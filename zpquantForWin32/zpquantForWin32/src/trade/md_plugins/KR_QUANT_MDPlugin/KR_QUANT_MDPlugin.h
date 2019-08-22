@@ -68,7 +68,7 @@ public:
 	BOOL MDResubscribeByCodePrefix(MdsApiSessionInfoT *pTcpChannel,
         const char *pCodeListString, int32 MdsSubscribeDataType,eMdsSubscribeModeT subMode);
 	BOOL MDResubscribeByCodePostfix(MdsApiSessionInfoT *pTcpChannel,
-		const char *pCodeListString, eMdsSubscribeModeT subMode);
+		const char *pCodeListString, int32 MdsSubscribeDataType, eMdsSubscribeModeT subMode);
 	void OnWaitOnMsg();
 
 private:
